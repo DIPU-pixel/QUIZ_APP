@@ -25,7 +25,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="app" style={{ backgroundImage: 'url("/ques1.png")' }}>
+      <div className="app" >
         <Header />
         <Switch>
           <Route path="/" exact>
